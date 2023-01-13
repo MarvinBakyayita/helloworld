@@ -1,8 +1,8 @@
 #trying to practice what I've learnt
 
 def main():
-    x = 8
-    y = 2
+    x = int(input())
+    y = int(input())
     name = input("What's your name patner? ")
     food = input("What's your favourite food? ")
     print("Hello there,", name.strip().title())
